@@ -31,7 +31,7 @@ export const loginAction = async ({ request }) => {
       toast.error(data.message, toastOptionError);
     }
   } catch (err) {
-    toast.error("Somthing went on,try again !", toastOptionError);
+    toast.error("Oops! Somthing went wrong,try again !", toastOptionError);
   }
   return null;
 };
